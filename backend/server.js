@@ -42,7 +42,7 @@ app.get("/auth/google/callback", async (req, res) => {
 
   savedTokens = tokens;
 
-  res.redirect("http://localhost:5173");
+  res.redirect("https://mail-scrapper-lyart.vercel.app");
 });
 
 app.get("/search", async (req, res) => {
