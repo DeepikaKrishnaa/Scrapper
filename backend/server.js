@@ -10,7 +10,7 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://mail-scrapper.vercel.app"
+    "https://mail-scrapper-lyart.vercel.app"
   ],
   credentials: true
 }));
